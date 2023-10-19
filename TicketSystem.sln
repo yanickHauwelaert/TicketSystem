@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.API", "TicketSystem.API\TicketSystem.API.csproj", "{226BF8AC-A8F3-4EF0-8E70-A24CBBAE8559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.Core", "TicketSystem.Core\TicketSystem.Core.csproj", "{90878A5B-650B-4FE9-B255-E6BDF20FFE6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.Infrastructure", "TicketSystem.Infrastructure\TicketSystem.Infrastructure.csproj", "{0DFDC3F8-C703-490D-81DA-F75040FDBB39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{226BF8AC-A8F3-4EF0-8E70-A24CBBAE8559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226BF8AC-A8F3-4EF0-8E70-A24CBBAE8559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226BF8AC-A8F3-4EF0-8E70-A24CBBAE8559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226BF8AC-A8F3-4EF0-8E70-A24CBBAE8559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90878A5B-650B-4FE9-B255-E6BDF20FFE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90878A5B-650B-4FE9-B255-E6BDF20FFE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90878A5B-650B-4FE9-B255-E6BDF20FFE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90878A5B-650B-4FE9-B255-E6BDF20FFE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFDC3F8-C703-490D-81DA-F75040FDBB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFDC3F8-C703-490D-81DA-F75040FDBB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFDC3F8-C703-490D-81DA-F75040FDBB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFDC3F8-C703-490D-81DA-F75040FDBB39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
