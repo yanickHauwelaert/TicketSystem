@@ -5,8 +5,8 @@ namespace TicketSystem.Core.Services.Interfaces;
 public interface ICategoryService
 {
     Task<ICollection<Category>> GetALlCategories();
-    Task<Category> GetCategoryById();
-    Task<Category> AddCategory();
-    Task<Category> UpdateCategory();
-    Task<Category> DeleteCategory();
+    Task<Category> GetCategoryById(Guid id);
+    Task<Category> AddCategory(Category ticket);
+    Task<Category> UpdateCategory(Category ticket);
+    Task<Category> DeleteCategory(Category ticket);
 }
