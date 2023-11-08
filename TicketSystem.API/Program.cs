@@ -47,7 +47,16 @@ builder.Services.AddSwaggerGen(c =>
         Title = "Ticket system",
         Version = "v1"
     });
-    
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Enter 'Bearer' and then your valid token.",
+
+    });
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {

@@ -30,7 +30,7 @@ namespace TicketSystem.API.Controllers
             _configuration = configuration;
         }
 
-        [HttpPost]
+        [HttpPost("Login")]
         [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginRequestDto login)
         {
