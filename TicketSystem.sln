@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.Core", "Ticket
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.Infrastructure", "TicketSystem.Infrastructure\TicketSystem.Infrastructure.csproj", "{0DFDC3F8-C703-490D-81DA-F75040FDBB39}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{DC514E3C-0B35-4E9E-AD30-15E1F37FE80A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{D588AFAD-A452-4338-9654-C42A744D94E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,10 @@ Global
 		{0DFDC3F8-C703-490D-81DA-F75040FDBB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DFDC3F8-C703-490D-81DA-F75040FDBB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DFDC3F8-C703-490D-81DA-F75040FDBB39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{226BF8AC-A8F3-4EF0-8E70-A24CBBAE8559} = {D588AFAD-A452-4338-9654-C42A744D94E3}
+		{0DFDC3F8-C703-490D-81DA-F75040FDBB39} = {D588AFAD-A452-4338-9654-C42A744D94E3}
+		{90878A5B-650B-4FE9-B255-E6BDF20FFE6F} = {D588AFAD-A452-4338-9654-C42A744D94E3}
 	EndGlobalSection
 EndGlobal
