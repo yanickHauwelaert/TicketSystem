@@ -19,7 +19,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     var config = builder.Configuration;
     var connectionString = config.GetConnectionString("LocalDatabase");
     options.UseSqlServer(connectionString);
-});
+});//
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole<Guid>>(options =>
 {
